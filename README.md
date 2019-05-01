@@ -21,7 +21,10 @@ Then you can run FlowSOM just as follows:
 ```python
 from flowSOM import *
 fsom = flowsom(file) # read the data
-fsom.som_mapping(50, 50, 31, sigma=2.5, learning_rate=0.1, batch_size=100)  # trains SOM with 100 iterations
-fsom.meta_clustering(AgglomerativeClustering, min_n=40, max_n=45, iter_n=3) # train the meta clustering for cluster in range(40,45)       
+fsom.som_mapping(50, 50, 31, sigma=2.5, 
+                 learning_rate=0.1, batch_size=100)  # trains SOM with 100 iterations
+fsom.meta_clustering(AgglomerativeClustering, min_n=40, 
+                     max_n=45, 
+                     iter_n=3) # train the meta clustering for cluster in range(40,45)       
 ```
 
