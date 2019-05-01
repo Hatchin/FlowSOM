@@ -28,3 +28,8 @@ fsom.meta_clustering(AgglomerativeClustering, min_n=40,
                      iter_n=3) # train the meta clustering for cluster in range(40,45)       
 ```
 
+### Use the trained output
+
+After the training, you will be able to:
+
+*Get the weights of SOM with method `fsom.map_som`
