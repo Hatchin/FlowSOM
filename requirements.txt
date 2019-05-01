@@ -1,0 +1,8 @@
+FlowCytometryTools>=0.5.0
+matplotlib>=2.2.2
+minisom>=2.1.5
+networkx>=2.1
+numpy>=1.9.2
+pandas>=0.19
+scipy>=0.15.1
+scikit-learn>=0.20.2
