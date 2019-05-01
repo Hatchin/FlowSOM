@@ -32,4 +32,4 @@ fsom.meta_clustering(AgglomerativeClustering, min_n=40,
 
 After the training, you will be able to:
 
-*Get the weights of SOM with method `fsom.map_som`
+* Get the weights of SOM with method `fsom.map_som`
