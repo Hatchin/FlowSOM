@@ -1,6 +1,6 @@
 FlowCytometryTools>=0.5.0
-matplotlib>=2.2.0
-minisom>=2.1.5
+matplotlib>=2.2.2
+minisom
 networkx>=2.1
 numpy>=1.9.2
 pandas>=0.20
