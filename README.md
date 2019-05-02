@@ -3,9 +3,9 @@ This repository contains a Python implementation of [FlowSOM](http://bioconducto
 
 # Installation
 Download FlowSOM to a directory of your choice and then run:
-```bash
-pip install -r requirements.txt
-```    
+
+    pip install -r requirements.txt
+    
     
 How to use it
 ------------------
