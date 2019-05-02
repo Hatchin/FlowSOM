@@ -38,9 +38,13 @@ After the training, you will be able to:
 
 Examples
 -------------------------
-The demo code could be found [here](https://github.com/Hatchin/FlowSOM/blob/master/demo.ipynb)
+The demo code could be found [here](https://github.com/Hatchin/FlowSOM/blob/master/demo.ipynb).
 
-The distance map of SOM trained from a sample flow cytometry [data](https://github.com/Hatchin/FlowSOM/blob/master/flowmetry_transformed.csv)
+The distance map of SOM trained from a sample flow cytometry [data](https://github.com/Hatchin/FlowSOM/blob/master/flowmetry_transformed.csv):
 
 <img src="https://github.com/Hatchin/FlowSOM/blob/master/som.png" alt="Flow example">
+
+The visualization after meta-clustering using Minimal Spanning Tree (MST):
+<img src="https://github.com/Hatchin/FlowSOM/blob/master/mst.png" alt="MST example">
+
 
