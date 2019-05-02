@@ -3,9 +3,9 @@ This repository contains a Python implementation of [FlowSOM](http://bioconducto
 
 # Installation
 Download FlowSOM to a directory of your choice and then run:
-
-    pip install -r requirements.txt
-    
+```bash
+pip install -r requirements.txt
+```    
 How to use it
 ------------------
 In order to use FlowSOM you need your data saved as a .csv file or a .fcs file.
