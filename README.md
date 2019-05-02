@@ -6,6 +6,17 @@ Download FlowSOM to a directory of your choice and then run:
 ```bash
 pip install -r requirements.txt
 ```    
+### A typical top-level directory layout
+
+    .
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
+    
 How to use it
 ------------------
 In order to use FlowSOM you need your data saved as a .csv file or a .fcs file.
