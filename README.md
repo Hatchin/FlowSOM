@@ -33,3 +33,14 @@ fsom.meta_clustering(AgglomerativeClustering, min_n=40,
 After the training, you will be able to:
 
 * Get the weights of SOM with method `fsom.map_som`
+* Get the best number of clustering with method `fsom.bestk`
+* Get the prediction dataframe with method `fsom.df` and `fsom.tf_df`
+
+Examples
+-------------------------
+The demo code could be found [here](https://github.com/Hatchin/FlowSOM/blob/master/demo.ipynb)
+
+The distance map of SOM trained from a sample flow cytometry [data](https://github.com/Hatchin/FlowSOM/blob/master/flowmetry_transformed.csv)
+
+<img src="https://github.com/Hatchin/FlowSOM/blob/master/som.png" alt="Flow example">
+
