@@ -2,7 +2,10 @@
 This repository contains a Python implementation of [FlowSOM](http://bioconductor.org/packages/release/bioc/html/FlowSOM.html) algorithm for clustering and visualizing a mass cytometry data set. 
 
 # Installation
-Download FlowSOM to a directory of your choice and then run:
+Just use pip
+    pip install FlowSom
+  
+Or download this repository to a directory of your choice and then run:
 
     pip install -r requirements.txt
     
@@ -17,10 +20,17 @@ or
 ```python
 file = 'flowmetry.csv'
 ```
+Then you need to import the package. If you install the package via pip, then you should run
+```python
+from flowsom import flowsom as flowsom
+```
+If you download the repository, you should run
+```python
+from flowsom import *
+```
 
 Then you can run FlowSOM just as follows:
 ```python
-from flowSOM import *
 fsom = flowsom(file) # read the data
 fsom.som_mapping(50, 50, 31, sigma=2.5, 
                  learning_rate=0.1, batch_size=100)  # trains SOM with 100 iterations
@@ -40,7 +50,7 @@ After the training, you will be able to:
 
 Examples
 -------------------------
-The demo code could be found [here](https://github.com/Hatchin/FlowSOM/blob/master/demo.ipynb).
+The demo code could be found [here](https://github.com/Hatchin/FlowSOM/blob/master/demo/demo.ipynb).
 
 The distance map of SOM trained from a sample flow cytometry [data](https://github.com/Hatchin/FlowSOM/blob/master/demo/flowmetry_transformed.csv):
 
