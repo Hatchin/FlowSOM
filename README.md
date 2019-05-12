@@ -47,6 +47,7 @@ The distance map of SOM trained from a sample flow cytometry [data](https://gith
 <img src="https://github.com/Hatchin/FlowSOM/blob/master/som.png" alt="Flow example">
 
 The visualization example after meta-clustering using Minimal Spanning Tree (MST):
+{: style="text-align:center"}
 <img src="https://github.com/Hatchin/FlowSOM/blob/master/mst.png" alt="MST example">
 
 FlowSOM Algorithm
