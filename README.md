@@ -3,6 +3,7 @@ This repository contains a Python implementation of [FlowSOM](http://bioconducto
 
 # Installation
 Just use pip
+    
     pip install FlowSom
   
 Or download this repository to a directory of your choice and then run:
