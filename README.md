@@ -85,3 +85,5 @@ The meta-clustering technique conducted on the SOM is hierarchical consensus met
 Acknowledge
 -----------------
 FlowSOM is built based on [FlowCytometryTools](https://github.com/eyurtsev/FlowCytometryTools), [MiniSom](https://github.com/JustGlowing/minisom) and [Consensus Clustering](https://github.com/ZigaSajovic/Consensus_Clustering).
+
+Update pypi: [source](https://stackoverflow.com/questions/52700692/a-guide-for-updating-packages-on-pypi)
