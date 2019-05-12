@@ -2,7 +2,7 @@
 This repository contains a Python implementation of [FlowSOM](http://bioconductor.org/packages/release/bioc/html/FlowSOM.html) algorithm for clustering and visualizing a mass cytometry data set. 
 
 # Installation
-Just use pip
+Just use [pip](https://pypi.org/project/FlowSom/)
     
     pip install FlowSom
   
