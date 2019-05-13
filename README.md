@@ -2,6 +2,7 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Hatchin/FlowSOM/pulls)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Hatchin/Mann-Whitney-U-Test/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/<pypi version>-<0.1.1>-<green>.svg)](https://pypi.org/project/FlowSom/)
 [![PyPI version](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/FlowSom/)
 
 
