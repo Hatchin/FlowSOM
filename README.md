@@ -72,10 +72,10 @@ FlowSOM Algorithm
 FlowSOM analyzes flow or mass cytometry data using a self-Organizing Map (SOM). Using a two-level clustering and star charts, FlowSOM helps to obtain a clear overview of how all markers are behaving on all cells, and to detect subsets that might be missed otherwise. 
 
 The algorithm consists of four steps: 
-    - reading the data;
-    - building a Self-Organizing Map;
-    - building a minimal spanning tree;
-    - computing a meta-clustering. 
+- reading the data;
+- building a Self-Organizing Map;
+- building a minimal spanning tree;
+- computing a meta-clustering. 
     
 ### Self-Organizing Map
 SOM is a type of unsupervised Artificial Neural Network able to convert complex, nonlinear statistical relationships between high-dimensional data items into simple geometric relationships on a low-dimensional display. [Introduction](https://heartbeat.fritz.ai/introduction-to-self-organizing-maps-soms-98e88b568f5d)
