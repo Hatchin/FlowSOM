@@ -29,7 +29,7 @@ file = 'flowmetry.csv'
 ```
 Then you need to import the package. If you install the package via pip, then you should run
 ```python
-from flowsom import flowsom as flowsom
+from flowsom import flowsom
 ```
 If you download the repository, you should run
 ```python
