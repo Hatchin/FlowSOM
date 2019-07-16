@@ -27,7 +27,9 @@ How to use it
 ```python
 file = r'flowmetry.fcs'
 ```
-or 
+<dl>
+  <dd>Or</dd>
+</dl>
 ```python
 file = 'flowmetry.csv'
 ```
