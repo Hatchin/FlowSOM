@@ -30,19 +30,32 @@ file = r'flowmetry.fcs'
 <dl>
   <dd>Or</dd>
 </dl>
+
 ```python
 file = 'flowmetry.csv'
 ```
-Then you need to import the package. If you install the package via pip, then you should run
+
+<dl>
+  <dt>Import Package</dt>
+    <dd>Then you need to import the package.</dd>
+    <dd>If you install the package via pip, then you should run</dd>
+</dl>
+
 ```python
 from flowsom import flowsom
 ```
-If you download the repository, you should run
+<dl>
+    <dd>If you download the repository, you should run</dd>
+</dl>
+
 ```python
 from flowsom import *
 ```
+<dl>
+    <dt>Play Around</dt>
+    <dd>Then you can run FlowSOM just as follows:</dd>
+</dl>
 
-Then you can run FlowSOM just as follows:
 ```python
 fsom = flowsom(file) # read the data
 fsom.som_mapping(50, 50, 31, sigma=2.5, 
