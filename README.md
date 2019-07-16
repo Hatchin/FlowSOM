@@ -19,7 +19,10 @@ Or download this repository to a directory of your choice and then run:
     
 How to use it
 ------------------
-In order to use FlowSOM you need your data saved as a .csv file or a .fcs file.
+<dl>
+  <dt>Read Files</dt>
+  <dd>In order to use FlowSOM you need your data saved as a .csv file or a .fcs file.</dd>
+</dl>
 ```python
 file = r'flowmetry.fcs'
 ```
