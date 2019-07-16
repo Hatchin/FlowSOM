@@ -23,6 +23,7 @@ How to use it
   <dt>Read Files</dt>
   <dd>In order to use FlowSOM you need your data saved as a .csv file or a .fcs file.</dd>
 </dl>
+
 ```python
 file = r'flowmetry.fcs'
 ```
