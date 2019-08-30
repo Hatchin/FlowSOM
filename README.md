@@ -100,9 +100,8 @@ The algorithm consists of four steps:
 SOM is a type of unsupervised Artificial Neural Network able to convert complex, nonlinear statistical relationships between high-dimensional data items into simple geometric relationships on a low-dimensional display. [Introduction](https://heartbeat.fritz.ai/introduction-to-self-organizing-maps-soms-98e88b568f5d)
 
 ### Minimum Spanning Tree
-```
+
 A minimum spanning tree (MST) or minimum weight spanning tree is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight.
-```
 
 ### Meta-clustering
 The meta-clustering technique conducted on the SOM is hierarchical consensus meta-clustering, which clusters the weights of trained SOM into different groups. 
