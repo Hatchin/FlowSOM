@@ -7,7 +7,7 @@
 
 This repository contains a Python implementation of [FlowSOM](http://bioconductor.org/packages/release/bioc/html/FlowSOM.html) algorithm for clustering and visualizing a mass cytometry data set. 
 
-For more details about the algorithm, please check ([En](https://hatchin.netlify.com/flowsom/)|[中](https://hatchin.netlify.com/zh/flowsom/))
+For more details about the algorithm, please check ([En](https://hatchin.netlify.com/flowsom/?utm_source=github_flowsom_repo_read_me_en&utm_medium=flowsom_repo_readme&utm_campaign=read_me)|[中](https://hatchin.netlify.com/zh/flowsom/?utm_source=github_flowsom_repo_read_me_zh&utm_medium=flowsom_repo_readme&utm_campaign=read_me))
 
 # Installation
 Just use [pip](https://pypi.org/project/FlowSom/)
