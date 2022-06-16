@@ -71,14 +71,14 @@ class flowsom():
                 h_data = hsample.data[col] # get the transforming data
                 log_data[col] = h_data.data # store the data into new df
             self.tf_df = log_data
-            self.tf_matrix = log_data.values
+            self.tf_matrix = log_data.to_numpy()
         else:
             #################################
             ## to-do: transform for ndarray##
             #################################
 
             self.tf_df = self.df
-            self.tf_matrix = self.df.values
+            self.tf_matrix = self.df.to_numpy()
 
     def som_mapping(self, x_n, y_n, d, sigma, lr,batch_size, 
                     neighborhood='gaussian', 
